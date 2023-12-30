@@ -30,7 +30,7 @@ export const CardPricing3 = () => {
             <Box>
               <Text span size={35} css={{ color: "$white", w: "600" }}>
                 {/* some text */}
-                Let's Talk !
+                Let's Talk
               </Text>
             </Box>
             <Box>
