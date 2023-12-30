@@ -3,6 +3,9 @@
 
 You can visit the live demo here - https://genoshi-io.vercel.app/
 
+Structure of the project :
+
+
 ```
 ├── components
 │   ├── accounts            # Accounts components
