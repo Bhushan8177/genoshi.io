@@ -17,10 +17,10 @@ export const CardPricing3 = () => {
       }}
     >
       <Flex css={{ gap: "$15" }} align={"center"}>
-        <Card.Body css={{ py: "$10" }} align={'center'}>
+        <Card.Body css={{ py: "$10" }}>
           <Flex css={{ gap: "$15" }} align={"center"}>
             {/* <Community /> */}
-            <Flex direction={"column"} align={"center"} css={{mb: '$10'}}>
+            <Flex direction={"column"} align={"center"} css={{ mb: "$10" }}>
               <Text span css={{ color: "white" }} size={26}>
                 Enterprise Plan
               </Text>
@@ -28,7 +28,7 @@ export const CardPricing3 = () => {
           </Flex>
           <Flex direction={"column"} css={{ gap: "$12" }} align={"center"}>
             <Box>
-              <Text span size={35} css={{ color: "$white", w: '600' }}>
+              <Text span size={35} css={{ color: "$white", w: "600" }}>
                 {/* some text */}
                 Let's Talk !
               </Text>
@@ -40,14 +40,16 @@ export const CardPricing3 = () => {
               </Text>
             </Box>
           </Flex>
-          <Button radius="full" size="lg" css={{
-         bg:"black"
-      }} >
-      Buy Now
-    </Button>
+          <Button
+            size="lg"
+            css={{
+              bg: "black",
+            }}
+          >
+            Buy Now
+          </Button>
         </Card.Body>
       </Flex>
-
     </Card>
   );
 };

@@ -38,11 +38,14 @@ export const CardPricing2 = () => {
               </Text>
             </Box>
           </Flex>
-          <Button radius="full" size="lg" css={{
-         bg:"black"
-      }} >
-      Buy Now
-    </Button>
+          <Button
+            size="lg"
+            css={{
+              bg: "black",
+            }}
+          >
+            Buy Now
+          </Button>
         </Card.Body>
       </Flex>
     </Card>
