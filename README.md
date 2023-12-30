@@ -1,12 +1,7 @@
 # Genoshi.io Assignment
 
 
-
-- Dark Mode Support
-- Full Responsive
-- Home Page with Charts
-- Accounts Page
-- More pages coming soon...
+You can visit the live demo here - https://genoshi-io.vercel.app/
 
 ```
 ├── components
@@ -29,7 +24,7 @@
 └──
 
 ```
-## For Run
+## To run in your local system 
 
 Install dependencies
 
